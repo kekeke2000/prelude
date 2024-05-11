@@ -1,0 +1,5 @@
+source /opt/ros/melodic/setup.bash
+source devel/setup.bash
+  locale
+ export LC_ALL=C
+killall -9 rosout roslaunch rosmaster gzserver nodelet robot_state_publisher gzclient python python3
